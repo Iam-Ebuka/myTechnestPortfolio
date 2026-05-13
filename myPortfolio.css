@@ -1,12 +1,83 @@
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8b7e7e;
+    padding: 20px;
+}
+
+.nav-bar a {
+    padding-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-bar a:hover {
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
+header {
+
+}
+
 h1 {
-    color: red;
+    text-align: center;
 }
 
 h1 + p {
+    text-align: center
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.call-to-action button {
+    background-color: black;
+    color: white;
+    min-width: 120px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+.call-to-action button:hover {
+    background-color: #fceded;
+    color: black;
+}
+
+h2 {
+    text-align: center;
+
+}
+
+h2 + p {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.container div {
+    background-color: pink;
+    flex-grow: 1;
+    flex-basis: 200px;
+    flex-shrink: 1;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
     color: blue;
 }
 
-.myHeader {
-    font-size: 24px;
-    color: blue
-}
+
+
